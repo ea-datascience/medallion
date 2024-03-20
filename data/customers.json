@@ -1,0 +1,2427 @@
+{
+  "customers": [
+    {
+      "id": "C001",
+      "name": "Customer 1",
+      "email": "customer1@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 101.5,
+      "transactions": [
+        {
+          "transaction_id": "T11",
+          "date": "2023-02-15",
+          "amount": 51,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T12",
+          "date": "2023-02-20",
+          "amount": 50.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "name": "Customer 2",
+      "email": "customer2@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 103.0,
+      "transactions": [
+        {
+          "transaction_id": "T21",
+          "date": "2023-03-15",
+          "amount": 52,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T22",
+          "date": "2023-03-20",
+          "amount": 51.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "name": "Customer 3",
+      "email": "customer3@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 104.5,
+      "transactions": [
+        {
+          "transaction_id": "T31",
+          "date": "2023-04-15",
+          "amount": 53,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T32",
+          "date": "2023-04-20",
+          "amount": 51.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "name": "Customer 4",
+      "email": "customer4@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 2106.0,
+      "transactions": [
+        {
+          "transaction_id": "T41",
+          "date": "2023-05-15",
+          "amount": 54,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T42",
+          "date": "2023-05-20",
+          "amount": 52.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "name": "Customer 5",
+      "email": "customer5@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 107.5,
+      "transactions": [
+        {
+          "transaction_id": "T51",
+          "date": "2023-06-15",
+          "amount": 55,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T52",
+          "date": "2023-06-20",
+          "amount": 52.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "name": "Customer 6",
+      "email": "customer6@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 109.0,
+      "transactions": [
+        {
+          "transaction_id": "T61",
+          "date": "2023-07-15",
+          "amount": 56,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T62",
+          "date": "2023-07-20",
+          "amount": 53.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "name": "Customer 7",
+      "email": "customer7@example.com",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 110.5,
+      "transactions": [
+        {
+          "transaction_id": "T71",
+          "date": "2023-08-15",
+          "amount": 57,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T72",
+          "date": "2023-08-20",
+          "amount": 53.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "name": "Customer 8",
+      "email": "customer8@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 112.0,
+      "transactions": [
+        {
+          "transaction_id": "T81",
+          "date": "2023-09-15",
+          "amount": 58,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T82",
+          "date": "2023-09-20",
+          "amount": 54.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "name": "Customer 9",
+      "email": "customer9@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 113.5,
+      "transactions": [
+        {
+          "transaction_id": "T91",
+          "date": "2023-10-15",
+          "amount": 59,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T92",
+          "date": "2023-10-20",
+          "amount": 54.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "name": "Customer 10",
+      "email": "customer10@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 115.0,
+      "transactions": [
+        {
+          "transaction_id": "T101",
+          "date": "2023-11-15",
+          "amount": 60,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T102",
+          "date": "2023-11-20",
+          "amount": 55.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "name": "Customer 11",
+      "email": "customer11@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 116.5,
+      "transactions": [
+        {
+          "transaction_id": "T111",
+          "date": "2023-12-15",
+          "amount": 61,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T112",
+          "date": "2023-12-20",
+          "amount": 55.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "name": "Customer 12",
+      "email": "customer12@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 118.0,
+      "transactions": [
+        {
+          "transaction_id": "T121",
+          "date": "2023-01-15",
+          "amount": 62,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T122",
+          "date": "2023-01-20",
+          "amount": 56.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C013",
+      "name": "Customer 13",
+      "email": "customer13@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 119.5,
+      "transactions": [
+        {
+          "transaction_id": "T131",
+          "date": "2023-02-15",
+          "amount": 63,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T132",
+          "date": "2023-02-20",
+          "amount": 56.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "name": "Customer 14",
+      "email": "customer14@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 121.0,
+      "transactions": [
+        {
+          "transaction_id": "T141",
+          "date": "2023-03-15",
+          "amount": 64,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T142",
+          "date": "2023-03-20",
+          "amount": 57.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "name": "Customer 15",
+      "email": "customer15@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 122.5,
+      "transactions": [
+        {
+          "transaction_id": "T151",
+          "date": "2023-04-15",
+          "amount": 65,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T152",
+          "date": "2023-04-20",
+          "amount": 57.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C016",
+      "name": "Customer 16",
+      "email": "customer16@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 124.0,
+      "transactions": [
+        {
+          "transaction_id": "T161",
+          "date": "2023-05-15",
+          "amount": 66,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T162",
+          "date": "2023-05-20",
+          "amount": 58.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C017",
+      "name": "Customer 17",
+      "email": "customer17@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 125.5,
+      "transactions": [
+        {
+          "transaction_id": "T171",
+          "date": "2023-06-15",
+          "amount": 67,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T172",
+          "date": "2023-06-20",
+          "amount": 58.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C018",
+      "name": "Customer 18",
+      "email": "customer18@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 127.0,
+      "transactions": [
+        {
+          "transaction_id": "T181",
+          "date": "2023-07-15",
+          "amount": 68,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T182",
+          "date": "2023-07-20",
+          "amount": 59.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C019",
+      "name": "Customer 19",
+      "email": "customer19@example.com",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 128.5,
+      "transactions": [
+        {
+          "transaction_id": "T191",
+          "date": "2023-08-15",
+          "amount": 69,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T192",
+          "date": "2023-08-20",
+          "amount": 59.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C020",
+      "name": "Customer 20",
+      "email": "customer20@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 130.0,
+      "transactions": [
+        {
+          "transaction_id": "T201",
+          "date": "2023-09-15",
+          "amount": 70,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T202",
+          "date": "2023-09-20",
+          "amount": 60.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C021",
+      "name": "Customer 21",
+      "email": "customer21@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 131.5,
+      "transactions": [
+        {
+          "transaction_id": "T211",
+          "date": "2023-10-15",
+          "amount": 71,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T212",
+          "date": "2023-10-20",
+          "amount": 60.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C022",
+      "name": "Customer 22",
+      "email": "customer22@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 133.0,
+      "transactions": [
+        {
+          "transaction_id": "T221",
+          "date": "2023-11-15",
+          "amount": 72,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T222",
+          "date": "2023-11-20",
+          "amount": 61.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "name": "Customer 23",
+      "email": "customer23@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 134.5,
+      "transactions": [
+        {
+          "transaction_id": "T231",
+          "date": "2023-12-15",
+          "amount": 73,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T232",
+          "date": "2023-12-20",
+          "amount": 61.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C024",
+      "name": "Customer 24",
+      "email": "customer24@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 136.0,
+      "transactions": [
+        {
+          "transaction_id": "T241",
+          "date": "2023-01-15",
+          "amount": 74,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T242",
+          "date": "2023-01-20",
+          "amount": 62.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C025",
+      "name": "Customer 25",
+      "email": "customer25@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 137.5,
+      "transactions": [
+        {
+          "transaction_id": "T251",
+          "date": "2023-02-15",
+          "amount": 75,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T252",
+          "date": "2023-02-20",
+          "amount": 62.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C026",
+      "name": "Customer 26",
+      "email": "customer26@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 139.0,
+      "transactions": [
+        {
+          "transaction_id": "T261",
+          "date": "2023-03-15",
+          "amount": 76,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T262",
+          "date": "2023-03-20",
+          "amount": 63.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C027",
+      "name": "Customer 27",
+      "email": "customer27@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 140.5,
+      "transactions": [
+        {
+          "transaction_id": "T271",
+          "date": "2023-04-15",
+          "amount": 77,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T272",
+          "date": "2023-04-20",
+          "amount": 63.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C028",
+      "name": "Customer 28",
+      "email": "customer28@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 142.0,
+      "transactions": [
+        {
+          "transaction_id": "T281",
+          "date": "2023-05-15",
+          "amount": 78,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T282",
+          "date": "2023-05-20",
+          "amount": 64.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C029",
+      "name": "Customer 29",
+      "email": "customer29@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 143.5,
+      "transactions": [
+        {
+          "transaction_id": "T291",
+          "date": "2023-06-15",
+          "amount": 79,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T292",
+          "date": "2023-06-20",
+          "amount": 64.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C030",
+      "name": "Customer 30",
+      "email": "customer30@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 145.0,
+      "transactions": [
+        {
+          "transaction_id": "T301",
+          "date": "2023-07-15",
+          "amount": 80,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T302",
+          "date": "2023-07-20",
+          "amount": 65.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C031",
+      "name": "Customer 31",
+      "email": "customer31@example.com",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 146.5,
+      "transactions": [
+        {
+          "transaction_id": "T311",
+          "date": "2023-08-15",
+          "amount": 81,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T312",
+          "date": "2023-08-20",
+          "amount": 65.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C032",
+      "name": "Customer 32",
+      "email": "customer32@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 148.0,
+      "transactions": [
+        {
+          "transaction_id": "T321",
+          "date": "2023-09-15",
+          "amount": 82,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T322",
+          "date": "2023-09-20",
+          "amount": 66.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C033",
+      "name": "Customer 33",
+      "email": "customer33@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 149.5,
+      "transactions": [
+        {
+          "transaction_id": "T331",
+          "date": "2023-10-15",
+          "amount": 83,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T332",
+          "date": "2023-10-20",
+          "amount": 66.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C034",
+      "name": "Customer 34",
+      "email": "customer34@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 151.0,
+      "transactions": [
+        {
+          "transaction_id": "T341",
+          "date": "2023-11-15",
+          "amount": 84,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T342",
+          "date": "2023-11-20",
+          "amount": 67.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C035",
+      "name": "Customer 35",
+      "email": "customer35@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 152.5,
+      "transactions": [
+        {
+          "transaction_id": "T351",
+          "date": "2023-12-15",
+          "amount": 85,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T352",
+          "date": "2023-12-20",
+          "amount": 67.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C036",
+      "name": "Customer 36",
+      "email": "customer36@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 154.0,
+      "transactions": [
+        {
+          "transaction_id": "T361",
+          "date": "2023-01-15",
+          "amount": 86,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T362",
+          "date": "2023-01-20",
+          "amount": 68.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C037",
+      "name": "Customer 37",
+      "email": "customer37@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 155.5,
+      "transactions": [
+        {
+          "transaction_id": "T371",
+          "date": "2023-02-15",
+          "amount": 87,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T372",
+          "date": "2023-02-20",
+          "amount": 68.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C038",
+      "name": "Customer 38",
+      "email": "customer38@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 157.0,
+      "transactions": [
+        {
+          "transaction_id": "T381",
+          "date": "2023-03-15",
+          "amount": 88,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T382",
+          "date": "2023-03-20",
+          "amount": 69.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C039",
+      "name": "Customer 39",
+      "email": "customer39@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 158.5,
+      "transactions": [
+        {
+          "transaction_id": "T391",
+          "date": "2023-04-15",
+          "amount": 89,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T392",
+          "date": "2023-04-20",
+          "amount": 69.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C040",
+      "name": "Customer 40",
+      "email": "customer40@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 160.0,
+      "transactions": [
+        {
+          "transaction_id": "T401",
+          "date": "2023-05-15",
+          "amount": 90,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T402",
+          "date": "2023-05-20",
+          "amount": 70.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C041",
+      "name": "Customer 41",
+      "email": "customer41@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 161.5,
+      "transactions": [
+        {
+          "transaction_id": "T411",
+          "date": "2023-06-15",
+          "amount": 91,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T412",
+          "date": "2023-06-20",
+          "amount": 70.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C042",
+      "name": "Customer 42",
+      "email": "customer42@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 163.0,
+      "transactions": [
+        {
+          "transaction_id": "T421",
+          "date": "2023-07-15",
+          "amount": 92,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T422",
+          "date": "2023-07-20",
+          "amount": 71.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C043",
+      "name": "Customer 43",
+      "email": "customer43@example.com",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 164.5,
+      "transactions": [
+        {
+          "transaction_id": "T431",
+          "date": "2023-08-15",
+          "amount": 93,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T432",
+          "date": "2023-08-20",
+          "amount": 71.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C044",
+      "name": "Customer 44",
+      "email": "customer44@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 166.0,
+      "transactions": [
+        {
+          "transaction_id": "T441",
+          "date": "2023-09-15",
+          "amount": 94,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T442",
+          "date": "2023-09-20",
+          "amount": 72.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C045",
+      "name": "Customer 45",
+      "email": "customer45@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 167.5,
+      "transactions": [
+        {
+          "transaction_id": "T451",
+          "date": "2023-10-15",
+          "amount": 95,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T452",
+          "date": "2023-10-20",
+          "amount": 72.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C046",
+      "name": "Customer 46",
+      "email": "customer46@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 169.0,
+      "transactions": [
+        {
+          "transaction_id": "T461",
+          "date": "2023-11-15",
+          "amount": 96,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T462",
+          "date": "2023-11-20",
+          "amount": 73.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C047",
+      "name": "Customer 47",
+      "email": "customer47@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 170.5,
+      "transactions": [
+        {
+          "transaction_id": "T471",
+          "date": "2023-12-15",
+          "amount": 97,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T472",
+          "date": "2023-12-20",
+          "amount": 73.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C048",
+      "name": "Customer 48",
+      "email": "customer48@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 172.0,
+      "transactions": [
+        {
+          "transaction_id": "T481",
+          "date": "2023-01-15",
+          "amount": 98,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T482",
+          "date": "2023-01-20",
+          "amount": 74.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C049",
+      "name": "Customer 49",
+      "email": "customer49@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 173.5,
+      "transactions": [
+        {
+          "transaction_id": "T491",
+          "date": "2023-02-15",
+          "amount": 99,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T492",
+          "date": "2023-02-20",
+          "amount": 74.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C050",
+      "name": "Customer 50",
+      "email": "customer50@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 175.0,
+      "transactions": [
+        {
+          "transaction_id": "T501",
+          "date": "2023-03-15",
+          "amount": 100,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T502",
+          "date": "2023-03-20",
+          "amount": 75.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C051",
+      "name": "Customer 51",
+      "email": "customer51@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 176.5,
+      "transactions": [
+        {
+          "transaction_id": "T511",
+          "date": "2023-04-15",
+          "amount": 101,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T512",
+          "date": "2023-04-20",
+          "amount": 75.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C052",
+      "name": "Customer 52",
+      "email": "customer52@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 178.0,
+      "transactions": [
+        {
+          "transaction_id": "T521",
+          "date": "2023-05-15",
+          "amount": 102,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T522",
+          "date": "2023-05-20",
+          "amount": 76.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C053",
+      "name": "Customer 53",
+      "email": "customer53@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 179.5,
+      "transactions": [
+        {
+          "transaction_id": "T531",
+          "date": "2023-06-15",
+          "amount": 103,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T532",
+          "date": "2023-06-20",
+          "amount": 76.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C054",
+      "name": "Customer 54",
+      "email": "customer54@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 181.0,
+      "transactions": [
+        {
+          "transaction_id": "T541",
+          "date": "2023-07-15",
+          "amount": 104,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T542",
+          "date": "2023-07-20",
+          "amount": 77.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C055",
+      "name": "Customer 55",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 182.5,
+      "transactions": [
+        {
+          "transaction_id": "T551",
+          "date": "2023-08-15",
+          "amount": 105,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T552",
+          "date": "2023-08-20",
+          "amount": 77.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C056",
+      "name": "Customer 56",
+      "email": "customer56@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 184.0,
+      "transactions": [
+        {
+          "transaction_id": "T561",
+          "date": "2023-09-15",
+          "amount": 106,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T562",
+          "date": "2023-09-20",
+          "amount": 78.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C057",
+      "name": "Customer 57",
+      "email": "customer57@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 185.5,
+      "transactions": [
+        {
+          "transaction_id": "T571",
+          "date": "2023-10-15",
+          "amount": 107,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T572",
+          "date": "2023-10-20",
+          "amount": 78.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C058",
+      "name": "Customer 58",
+      "email": "customer58@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 187.0,
+      "transactions": [
+        {
+          "transaction_id": "T581",
+          "date": "2023-11-15",
+          "amount": 108,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T582",
+          "date": "2023-11-20",
+          "amount": 79.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C059",
+      "name": "Customer 59",
+      "email": "customer59@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 188.5,
+      "transactions": [
+        {
+          "transaction_id": "T591",
+          "date": "2023-12-15",
+          "amount": 109,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T592",
+          "date": "2023-12-20",
+          "amount": 79.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C060",
+      "name": "Customer 60",
+      "email": "customer60@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 190.0,
+      "transactions": [
+        {
+          "transaction_id": "T601",
+          "date": "2023-01-15",
+          "amount": 110,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T602",
+          "date": "2023-01-20",
+          "amount": 80.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C061",
+      "name": "Customer 61",
+      "email": "customer61@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 191.5,
+      "transactions": [
+        {
+          "transaction_id": "T611",
+          "date": "2023-02-15",
+          "amount": 111,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T612",
+          "date": "2023-02-20",
+          "amount": 80.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C062",
+      "name": "Customer 62",
+      "email": "customer62@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 193.0,
+      "transactions": [
+        {
+          "transaction_id": "T621",
+          "date": "2023-03-15",
+          "amount": 112,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T622",
+          "date": "2023-03-20",
+          "amount": 81.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C062",
+      "name": "Customer 62",
+      "email": "customer62@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 193.0,
+      "transactions": [
+        {
+          "transaction_id": "T621",
+          "date": "2023-03-15",
+          "amount": 112,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T622",
+          "date": "2023-03-20",
+          "amount": 81.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C063",
+      "name": "Customer 63",
+      "email": "customer63@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 194.5,
+      "transactions": [
+        {
+          "transaction_id": "T631",
+          "date": "2023-04-15",
+          "amount": 113,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T632",
+          "date": "2023-04-20",
+          "amount": 81.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C064",
+      "name": "Customer 64",
+      "email": "customer64@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 196.0,
+      "transactions": [
+        {
+          "transaction_id": "T641",
+          "date": "2023-05-15",
+          "amount": 114,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T642",
+          "date": "2023-05-20",
+          "amount": 82.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C065",
+      "name": "Customer 65",
+      "email": "customer65@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 197.5,
+      "transactions": [
+        {
+          "transaction_id": "T651",
+          "date": "2023-06-15",
+          "amount": 115,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T652",
+          "date": "2023-06-20",
+          "amount": 82.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C066",
+      "name": "Customer 66",
+      "email": "customer66@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 199.0,
+      "transactions": [
+        {
+          "transaction_id": "T661",
+          "date": "2023-07-15",
+          "amount": 116,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T662",
+          "date": "2023-07-20",
+          "amount": 83.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C067",
+      "name": "Customer 67",
+      "email": "customer67@example.com",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 200.5,
+      "transactions": [
+        {
+          "transaction_id": "T671",
+          "date": "2023-08-15",
+          "amount": 117,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T672",
+          "date": "2023-08-20",
+          "amount": 83.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C068",
+      "name": "Customer 68",
+      "email": "customer68@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 202.0,
+      "transactions": [
+        {
+          "transaction_id": "T681",
+          "date": "2023-09-15",
+          "amount": 118,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T682",
+          "date": "2023-09-20",
+          "amount": 84.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C069",
+      "name": "Customer 69",
+      "email": "customer69@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 203.5,
+      "transactions": [
+        {
+          "transaction_id": "T691",
+          "date": "2023-10-15",
+          "amount": 119,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T692",
+          "date": "2023-10-20",
+          "amount": 84.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C070",
+      "name": "Customer 70",
+      "email": "customer70@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 205.0,
+      "transactions": [
+        {
+          "transaction_id": "T701",
+          "date": "2023-11-15",
+          "amount": 120,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T702",
+          "date": "2023-11-20",
+          "amount": 85.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C071",
+      "name": "Customer 71",
+      "email": "customer71@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 206.5,
+      "transactions": [
+        {
+          "transaction_id": "T711",
+          "date": "2023-12-15",
+          "amount": 121,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T712",
+          "date": "2023-12-20",
+          "amount": 85.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C072",
+      "name": "Customer 72",
+      "email": "customer72@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 208.0,
+      "transactions": [
+        {
+          "transaction_id": "T721",
+          "date": "2023-01-15",
+          "amount": 122,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T722",
+          "date": "2023-01-20",
+          "amount": 86.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C073",
+      "name": "Customer 73",
+      "email": "customer73@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 209.5,
+      "transactions": [
+        {
+          "transaction_id": "T731",
+          "date": "2023-02-15",
+          "amount": 123,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T732",
+          "date": "2023-02-20",
+          "amount": 86.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C074",
+      "name": "Customer 74",
+      "email": "customer74@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 211.0,
+      "transactions": [
+        {
+          "transaction_id": "T741",
+          "date": "2023-03-15",
+          "amount": 124,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T742",
+          "date": "2023-03-20",
+          "amount": 87.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C075",
+      "name": "Customer 75",
+      "email": "customer75@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 212.5,
+      "transactions": [
+        {
+          "transaction_id": "T751",
+          "date": "2023-04-15",
+          "amount": 125,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T752",
+          "date": "2023-04-20",
+          "amount": 87.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C076",
+      "name": "Customer 76",
+      "email": "customer76@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 214.0,
+      "transactions": [
+        {
+          "transaction_id": "T761",
+          "date": "2023-05-15",
+          "amount": 126,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T762",
+          "date": "2023-05-20",
+          "amount": 88.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C077",
+      "name": "Customer 77",
+      "email": "customer77@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 215.5,
+      "transactions": [
+        {
+          "transaction_id": "T771",
+          "date": "2023-06-15",
+          "amount": 127,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T772",
+          "date": "2023-06-20",
+          "amount": 88.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C078",
+      "name": "Customer 78",
+      "email": "customer78@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 217.0,
+      "transactions": [
+        {
+          "transaction_id": "T781",
+          "date": "2023-07-15",
+          "amount": 128,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T782",
+          "date": "2023-07-20",
+          "amount": 89.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C079",
+      "name": "Customer 79",
+      "email": "customer79@example.com",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 218.5,
+      "transactions": [
+        {
+          "transaction_id": "T791",
+          "date": "2023-08-15",
+          "amount": 129,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T792",
+          "date": "2023-08-20",
+          "amount": 89.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C080",
+      "name": "Customer 80",
+      "email": "customer80@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 220.0,
+      "transactions": [
+        {
+          "transaction_id": "T801",
+          "date": "2023-09-15",
+          "amount": 130,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T802",
+          "date": "2023-09-20",
+          "amount": 90.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C081",
+      "name": "Customer 81",
+      "email": "customer81@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 221.5,
+      "transactions": [
+        {
+          "transaction_id": "T811",
+          "date": "2023-10-15",
+          "amount": 131,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T812",
+          "date": "2023-10-20",
+          "amount": 90.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C082",
+      "name": "Customer 82",
+      "email": "customer82@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 223.0,
+      "transactions": [
+        {
+          "transaction_id": "T821",
+          "date": "2023-11-15",
+          "amount": 132,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T822",
+          "date": "2023-11-20",
+          "amount": 91.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C083",
+      "name": "Customer 83",
+      "email": "customer83@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 224.5,
+      "transactions": [
+        {
+          "transaction_id": "T831",
+          "date": "2023-12-15",
+          "amount": 133,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T832",
+          "date": "2023-12-20",
+          "amount": 91.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C084",
+      "name": "Customer 84",
+      "email": "customer84@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 226.0,
+      "transactions": [
+        {
+          "transaction_id": "T841",
+          "date": "2023-01-15",
+          "amount": 134,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T842",
+          "date": "2023-01-20",
+          "amount": 92.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C085",
+      "name": "Customer 85",
+      "email": "customer85@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 227.5,
+      "transactions": [
+        {
+          "transaction_id": "T851",
+          "date": "2023-02-15",
+          "amount": 135,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T852",
+          "date": "2023-02-20",
+          "amount": 92.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C086",
+      "name": "Customer 86",
+      "email": "customer86@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 229.0,
+      "transactions": [
+        {
+          "transaction_id": "T861",
+          "date": "2023-03-15",
+          "amount": 136,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T862",
+          "date": "2023-03-20",
+          "amount": 93.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C087",
+      "name": "Customer 87",
+      "email": "customer87@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 230.5,
+      "transactions": [
+        {
+          "transaction_id": "T871",
+          "date": "2023-04-15",
+          "amount": 137,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T872",
+          "date": "2023-04-20",
+          "amount": 93.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C088",
+      "name": "Customer 88",
+      "email": "customer88@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 232.0,
+      "transactions": [
+        {
+          "transaction_id": "T881",
+          "date": "2023-05-15",
+          "amount": 138,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T882",
+          "date": "2023-05-20",
+          "amount": 94.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C089",
+      "name": "Customer 89",
+      "email": "customer89@example.com",
+      "signup_date": "2023-06-01",
+      "last_purchase": "2023-06-15",
+      "total_spent": 233.5,
+      "transactions": [
+        {
+          "transaction_id": "T891",
+          "date": "2023-06-15",
+          "amount": 139,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T892",
+          "date": "2023-06-20",
+          "amount": 94.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C090",
+      "name": "Customer 90",
+      "email": "customer90@example.com",
+      "signup_date": "2023-07-01",
+      "last_purchase": "2023-07-15",
+      "total_spent": 235.0,
+      "transactions": [
+        {
+          "transaction_id": "T901",
+          "date": "2023-07-15",
+          "amount": 140,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T902",
+          "date": "2023-07-20",
+          "amount": 95.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    },
+    {
+      "id": "C091",
+      "name": "Customer 91",
+      "email": "customer91@example.com",
+      "signup_date": "2023-08-01",
+      "last_purchase": "2023-08-15",
+      "total_spent": 236.5,
+      "transactions": [
+        {
+          "transaction_id": "T911",
+          "date": "2023-08-15",
+          "amount": 141,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        },
+        {
+          "transaction_id": "T912",
+          "date": "2023-08-20",
+          "amount": 95.5,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        }
+      ]
+    },
+    {
+      "id": "C092",
+      "name": "Customer 92",
+      "email": "customer92@example.com",
+      "signup_date": "2023-09-01",
+      "last_purchase": "2023-09-15",
+      "total_spent": 238.0,
+      "transactions": [
+        {
+          "transaction_id": "T921",
+          "date": "2023-09-15",
+          "amount": 142,
+          "product_id": "P3",
+          "product_name": "Product 3"
+        },
+        {
+          "transaction_id": "T922",
+          "date": "2023-09-20",
+          "amount": 96.0,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        }
+      ]
+    },
+    {
+      "id": "C093",
+      "name": "Customer 93",
+      "email": "customer93@example.com",
+      "signup_date": "2023-10-01",
+      "last_purchase": "2023-10-15",
+      "total_spent": 239.5,
+      "transactions": [
+        {
+          "transaction_id": "T931",
+          "date": "2023-10-15",
+          "amount": 143,
+          "product_id": "P4",
+          "product_name": "Product 4"
+        },
+        {
+          "transaction_id": "T932",
+          "date": "2023-10-20",
+          "amount": 96.5,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        }
+      ]
+    },
+    {
+      "id": "C094",
+      "name": "Customer 94",
+      "email": "customer94@example.com",
+      "signup_date": "2023-11-01",
+      "last_purchase": "2023-11-15",
+      "total_spent": 241.0,
+      "transactions": [
+        {
+          "transaction_id": "T941",
+          "date": "2023-11-15",
+          "amount": 144,
+          "product_id": "P5",
+          "product_name": "Product 5"
+        },
+        {
+          "transaction_id": "T942",
+          "date": "2023-11-20",
+          "amount": 97.0,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        }
+      ]
+    },
+    {
+      "id": "C095",
+      "name": "Customer 95",
+      "email": "customer95@example.com",
+      "signup_date": "2023-12-01",
+      "last_purchase": "2023-12-15",
+      "total_spent": 242.5,
+      "transactions": [
+        {
+          "transaction_id": "T951",
+          "date": "2023-12-15",
+          "amount": 145,
+          "product_id": "P6",
+          "product_name": "Product 6"
+        },
+        {
+          "transaction_id": "T952",
+          "date": "2023-12-20",
+          "amount": 97.5,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        }
+      ]
+    },
+    {
+      "id": "C096",
+      "name": "Customer 96",
+      "email": "customer96@example.com",
+      "signup_date": "2023-01-01",
+      "last_purchase": "2023-01-15",
+      "total_spent": 244.0,
+      "transactions": [
+        {
+          "transaction_id": "T961",
+          "date": "2023-01-15",
+          "amount": 146,
+          "product_id": "P7",
+          "product_name": "Product 7"
+        },
+        {
+          "transaction_id": "T962",
+          "date": "2023-01-20",
+          "amount": 98.0,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        }
+      ]
+    },
+    {
+      "id": "C097",
+      "name": "Customer 97",
+      "email": "customer97@example.com",
+      "signup_date": "2023-02-01",
+      "last_purchase": "2023-02-15",
+      "total_spent": 245.5,
+      "transactions": [
+        {
+          "transaction_id": "T971",
+          "date": "2023-02-15",
+          "amount": 147,
+          "product_id": "P8",
+          "product_name": "Product 8"
+        },
+        {
+          "transaction_id": "T972",
+          "date": "2023-02-20",
+          "amount": 98.5,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        }
+      ]
+    },
+    {
+      "id": "C098",
+      "name": "Customer 98",
+      "email": "customer98@example.com",
+      "signup_date": "2023-03-01",
+      "last_purchase": "2023-03-15",
+      "total_spent": 247.0,
+      "transactions": [
+        {
+          "transaction_id": "T981",
+          "date": "2023-03-15",
+          "amount": 148,
+          "product_id": "P9",
+          "product_name": "Product 9"
+        },
+        {
+          "transaction_id": "T982",
+          "date": "2023-03-20",
+          "amount": 99.0,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        }
+      ]
+    },
+    {
+      "id": "C099",
+      "name": "Customer 99",
+      "email": "customer99@example.com",
+      "signup_date": "2023-04-01",
+      "last_purchase": "2023-04-15",
+      "total_spent": 248.5,
+      "transactions": [
+        {
+          "transaction_id": "T991",
+          "date": "2023-04-15",
+          "amount": 149,
+          "product_id": "P10",
+          "product_name": "Product 10"
+        },
+        {
+          "transaction_id": "T992",
+          "date": "2023-04-20",
+          "amount": 99.5,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        }
+      ]
+    },
+    {
+      "id": "C100",
+      "name": "Customer 100",
+      "email": "customer100@example.com",
+      "signup_date": "2023-05-01",
+      "last_purchase": "2023-05-15",
+      "total_spent": 250.0,
+      "transactions": [
+        {
+          "transaction_id": "T1001",
+          "date": "2023-05-15",
+          "amount": 150,
+          "product_id": "P1",
+          "product_name": "Product 1"
+        },
+        {
+          "transaction_id": "T1002",
+          "date": "2023-05-20",
+          "amount": 100.0,
+          "product_id": "P2",
+          "product_name": "Product 2"
+        }
+      ]
+    }
+  ]
+}
